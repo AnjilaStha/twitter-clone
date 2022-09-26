@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+    <title>Twitter</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="./favicon_twitter.png">
+<meta name="viewport" content="width=device-width, initial--scale=1.0">
+
+</head>
+<body>  
+<div class="sidebar layout">
+  <i class="fab fa-twitter"></i>
+  <div class="sidebarlayout active">
+    <h2> <span class="material-icons">home</span>
+   <strong>Home</strong></h2>
+  </div>
+
+  <div class="sidebarlayout">
+    <span class="material-icons">
+      numbers
+    </span>
+    <h2>Explore</h2>
+  </div>
+
+  <div class="sidebarlayout">
+    <span class="material-icons">
+      notifications
+    </span>
+    <h2>Notifications</h2>
+  </div>  
+
+  <div class="sidebarlayout">
+    <span class="material-icons">
+      mail_outline
+      </span>
+    <h2>Messages</h2>
+  </div>
+
+  <div class="sidebarlayout">
+    <span class="material-icons">
+      bookmark
+    </span>
+    <h2>Bookmarks</h2>
+  </div>  
+
+  <div class="sidebarlayout">
+    <span class="material-icons">
+      list
+    </span>
+    <h2>Lists</h2>
+  </div>
+
+  <div class="sidebarlayout">
+    <span class="material-icons">
+      perm_identity
+    </span>
+    <h2>Profile</h2>
+  </div>  
+  <div class="sidebarlayout">
+    <span class="material-icons">
+      more_horiz
+    </span>      
+    <h2>More</h2>
+  </div>
+  <button class="sidebar__tweet">Tweet</button>
+  <div class="accountinfo">
+      <img src="./myavatar.jpg" alt="Avatar icon"/>
+      <h4>Anjila Shrestha</h4>
+      <h5>nangelanjila</h5>
+      <span class="material-icons">
+        more_horiz
+      </span>
+  </div>
+  
+</div>
+<!-- sidebar ends -->
+
+<!-- feed starts -->
+<div class="feed">
+  <div class="feed__header">
+    <h4>Home</h4>
+</div>
+
+<!-- tweetbox starts-->
+<div class="TweetBox">
+  <form>
+    <div class="TweetBox__input">
+      <img src="./myavatar.jpg" alt="Avatar icon"/>
+      <input type="text" placeholder="What's Happening?" />
+    </div>
+    <button class="TweetBox__TweetButton">Tweet</button>
+  </form>    
+</div>  
+<!--tweetbox ends-->
+
+<!-- post  starts-->
+<div class="post">
+  <div class="post__avatar">
+    <img 
+      src="./myavatar.jpg" 
+      alt="Avatar icon"/>
+</div>
+
+  <div class="post__body">
+    <div class="post__header">
+      <div class="post__headerText">
+        <h3>Anjila Shrestha
+          <span class="post__headerSpecial">@angelanjila-s .   Aug23
+            </span>
+        </h3>
+      </div>
+      <div class="post__headerDescrip">
+        <p>GOOD TIMES+CRAZY FRIENDS=GREAT MEMORIES
+        .</p>
+      </div>
+    </div>
+    <img src="friends.jpg" alt="friends">
+    <div class="post__footer">
+      <span class="material-icons">
+         repeat 
+        </span>
+      <span class="material-icons">
+        favorite_border
+      </span>      
+      <span class="material-icons"> 
+        publish
+       </span>
+    </div>
+  </div>
+</div>
+<!-- post  ends-->
+
+<!-- post  starts-->
+<div class="post">
+  <div class="post__avatar">
+    <img 
+      src="./myavatar.jpg" 
+      alt="Avatar icon"/>
+</div>
+
+  <div class="post__body">
+    <div class="post__header">
+      <div class="post__headerText">
+        <h3>Anjila Shrestha
+          <span class="post__headerSpecial">@NGELANGEL .   Jan28
+            </span>
+        </h3>
+      </div>
+      <div class="post__headerDescrip">
+        <p>A bunch of wierdos who don't care at all.</p>
+      </div>
+    </div>
+    <img src="friends.jpg" alt="friends">
+    <div class="post__footer">
+      <span class="material-icons">
+         repeat 
+        </span>
+      <span class="material-icons">
+        favorite_border
+      </span>      
+      <span class="material-icons"> 
+        publish
+       </span>
+    </div>
+  </div>
+</div>
+<!-- post ends-->
+</div>
+<div class="widgets">
+  <div class="widgets__input">
+    <span class="material-icons widgets__searchIcon">
+      search
+    </span>
+    <input type="text" placeholder="Search Twitter">
+  </div>
+  <div>
+    <div class="widgets__widgetContainer">
+      <h2><strong>Trends for you</strong></h2>
+    </div>
+
+
+    <div class="trends-meta-information">
+      Trending in Nepal
+    </div>
+    <div class="widgets__widgetContainer__trend-name">
+      #Tiktok
+    </div>
+    <div class="widgets__widgetContainer__meta-information">
+   Sandip lamichanne Tweets
+    </div>
+    
+    <div class="trends-meta-information">
+      Trending in India
+    </div>
+    <div class="widgets__widgetContainer__trend-name">
+      #IPL
+    </div>
+    <div class="widgets__widgetContainer__meta-information">
+      1.8m Tweets
+    </div>
+
+    <div class="trends-meta-information">
+      Trending in China
+    </div>
+    <div class="widgets__widgetContainer__trend-name">
+      #Drama
+    </div>
+    <div class="widgets__widgetContainer__meta-information">
+      18k Tweets
+    </div>
+
+    <div class="trends-meta-information">
+      Trending in Canada
+    </div>
+    <div class="widgets__widgetContainer__trend-name">
+      #Snow
+    </div>
+    <div class="widgets__widgetContainer__meta-information">
+      9.6m Tweets
+    </div>
+
+    <div class="trends-meta-information">
+      Trending in Japan
+    </div>
+    <div class="widgets__widgetContainer__trend-name">
+      #Anime
+    </div>
+    <div class="widgets__widgetContainer__meta-information">
+      1.8m Tweets
+    </div>
+
+    <div class="trends-meta-information">
+      Trending in Qatar
+    </div>
+    <div class="widgets__widgetContainer__trend-name">
+      #Worldcup
+    </div>
+    <div class="widgets__widgetContainer__meta-information">
+      20.3m Tweets
+    </div>
+  </div>
+</div>
+</body>
+</html>
